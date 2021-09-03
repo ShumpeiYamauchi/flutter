@@ -90,7 +90,6 @@ class FlutterPianoAudioDetection {
       notes.add(getNoteName(element["key"]));
     });
     List<String> result = notes.toList();
-    result.sort();
     return result;
   }
 
